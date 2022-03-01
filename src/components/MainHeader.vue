@@ -53,6 +53,8 @@ export default {
     nav {
         display: flex;
         justify-content: space-between;
+        height: 60px;
+        align-items: center;
     }
 
     #logo {
@@ -107,5 +109,31 @@ export default {
 
     ul li {
         margin: 20px 0px;
+    }
+
+    @media (min-width: 700px) {
+        #menu-botton,
+        #menu-logo,
+        #menu-overlay {
+            display: none;
+        }
+
+        #menu-items {
+            display: flex;
+            position: static;
+            height: 60px;
+            width: auto;
+        }
+
+        ul {
+            display: flex;
+            height: 60px;
+            align-items: center;
+        }
+
+        ul li {
+            margin: 0;
+            margin-left: 10px;
+        }
     }
 </style>
