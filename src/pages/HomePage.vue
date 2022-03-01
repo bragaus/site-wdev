@@ -27,13 +27,13 @@ export default {
 
     .text-top {
         color: var(--color-text-light);
-        font-size: 22px;
+        font-size: 10px;
         margin-bottom: 20px;
     }
 
     .text-bottom {
         color: var(--color-text-light);
-        font-size: 18px;
+        font-size: 10px;
         margin-top: 20px;
     }
 
@@ -45,5 +45,17 @@ export default {
         #exodus {
             width: 300px;
         }
+
+        .text-top {
+            color: var(--color-text-light);
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .text-bottom {
+            color: var(--color-text-light);
+            font-size: 18px;
+            margin-top: 20px;
+        } 
     }
 </style>
